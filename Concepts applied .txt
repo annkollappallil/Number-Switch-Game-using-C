@@ -1,0 +1,11 @@
+Concepts applied 
+1. rand()-In built function in c used to generate series of random numbers. This function returns pseudo random numbers in the rand of [0,rand_max) and does not take any return types.
+      SYNTAX – datatype variable=(rand()%(upper-lower+1)+lower);
+2. srand()- uses LCG formula to generate values differently every time it is applied. srand() works on the principle where a timer keeps running producing numbers , so when 
+    the user sets time to where srand() is to stop and give value ,it produces different value every time it is executed.
+   SYNTAX – srand(unsigned int seed);
+   Seed is the number before which there is no rand() value .It is 1 by default.
+3. Arrows to move digits – Every move on the keyboard such as move up or move down has an ascii value of its own ,which makes the system know what action is been 
+  asked for. Similarly, here we use the same theory of ascii values ,where when the user uses keys to move arrow using switch case the required ascii value of the operation is  called.
+4. Swapping – When user used arrows to move numbers ,values do not get overwritten. Instead, they get swapped between the memory allocated spaces of those two 
+   particular indexes.
